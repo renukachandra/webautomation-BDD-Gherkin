@@ -28,21 +28,18 @@ Furthermore, Data driven approach can also be integrated in this framework
   ```sh
   $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   ```
-2. Follow the instructions until _Homebrew_ installing success
 
 ### Chromedriver
 1. Install _[Chromedriver](https://chromedriver.chromium.org/)_ using _brew_ in _Terminal_ using the following command
   ```sh
   $ brew install chromedriver --cask
   ```
-2. Follow the instructions until _chromedriver_ installing success
 
 ### Python
 1. Install _[Python](https://www.python.org/)_ using _brew_ in _Terminal_ using the following command
   ```sh
   $ brew install python
   ```
-2. Follow the instructions until _python_ installating success
 
 ### Setup Python Path
 1. Create and open your .bash_profile or .zshrc from _Terminal_
@@ -64,21 +61,18 @@ Furthermore, Data driven approach can also be integrated in this framework
   $ sudo easy_install pip
   $ sudo pip install --upgrade pip
   ```
-2. Follow the instructions until _pip_ installing success
 
 ### Robot Framework
 1. Install _[Robot Framework](https://robotframework.org/)_ using _pip_ in _Terminal_ using the following command
   ```sh
   $ pip install robotframework
   ```
-2. Follow the instructions until _robot framework_ installing success
 
 ### Selenium Library
 1. Install _[Selenium Library in Robot Framework](https://github.com/robotframework/SeleniumLibrary)_ using _pip_ in _Terminal_ using the following command
   ```sh
   $ pip install robotframework-seleniumlibrary
   ```
-2. Follow the instructions until _selenium library in robot framework_ installing success
 
 ---
 
