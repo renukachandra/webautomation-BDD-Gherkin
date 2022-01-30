@@ -55,13 +55,6 @@ Furthermore, Data driven approach can also be integrated in this framework
   ```
 3. Save and exit your bash_profile
 
-### Pip
-1. Install _[Pip](https://pypi.org/project/pip/)_ using `easy_install` command
-  ```sh
-  $ sudo easy_install pip
-  $ sudo pip install --upgrade pip
-  ```
-
 ### Robot Framework
 1. Install _[Robot Framework](https://robotframework.org/)_ using _pip_ in _Terminal_ using the following command
   ```sh
