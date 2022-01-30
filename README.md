@@ -2,6 +2,8 @@
 ---
 # SUT (system or subject under test)
 
+ https://www.demoblaze.com/index.html
+
 # Details
 This framework is using page object model as a pattern structure and BDD (Behavior Driven Development) framework as a testing approach with single gherkin language. It's using 4 folders and 1 file in the root directory.
 Furthermore, Data driven approach can also be integrated in this framework
