@@ -1,6 +1,6 @@
 # Web Test Automation using **Robot Framework**
 ---
-#SUT (system or subject under test)
+# SUT (system or subject under test)
 
 # Details
 This framework is using page object model as a pattern structure and BDD (Behavior Driven Development) framework as a testing approach with single gherkin language. It's using 4 folders and 1 file in the root directory.
