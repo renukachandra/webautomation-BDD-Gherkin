@@ -35,12 +35,12 @@ Validate price in cart and payment form
 
 Input order details in form and submit
     Click place order button
-    Input text   ${INPUTFIELD_NAME}       test
-    Input text   ${INPUTFIELD_COUNTRY}      Spain
-    Input text   ${INPUTFIELD_CITY}      Barcelona
-    Input text   ${INPUTFIELD_CARD}      1234567890
-    Input text   ${INPUTFIELD_MONTH}      12
-    Input text   ${INPUTFIELD_YEAR}      2022
+    Input text   ${INPUTFIELD_NAME}       ${ORDER_DETAILS}[0]
+    Input text   ${INPUTFIELD_COUNTRY}      ${ORDER_DETAILS}[1]
+    Input text   ${INPUTFIELD_CITY}      ${ORDER_DETAILS}[2]
+    Input text   ${INPUTFIELD_CARD}      ${ORDER_DETAILS}[3]
+    Input text   ${INPUTFIELD_MONTH}      ${ORDER_DETAILS}[4]
+    Input text   ${INPUTFIELD_YEAR}     ${ORDER_DETAILS}[5]
     Click element  ${PURCHASE_BUTTON}
 
 Validate the success message

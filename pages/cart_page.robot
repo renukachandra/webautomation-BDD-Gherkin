@@ -18,6 +18,7 @@ ${PURCHASE_BUTTON}      //button[.//text() = 'Purchase']
 ${PURCHASE_SUCCESSFUL_MESSAGE}    Thank you for your purchase!
 ${PURCHASE_CONFIRM_BUTTON}     //button[.//text() = 'OK']
 ${PURCHASE_SUCCESSFUL_MESSAGE_CONTENT}     //html/body/div[10]/p
+@{ORDER_DETAILS}   test  Spain  Barcelona  1234567890  12  2022
 
 *** Keywords ***
 Open cart
