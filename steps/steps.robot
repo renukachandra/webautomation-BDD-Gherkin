@@ -48,5 +48,7 @@ Validate the success message
 
 Validate price in success message
     ${expected_amount}  Get text  ${TOTALPRICE_CART}
-    Page should contain  Amount: ${expected_amount} USD
+    ${text}   Get text  ${PURCHASE_SUCCESSFUL_MESSAGE_CONTENT}
+    Should contain  ${text}  Amount: ${expected_amount} USD
+    Click element   ${PURCHASE_CONFIRM_BUTTON}
 
